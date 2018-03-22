@@ -82,7 +82,7 @@ public class CameraHandler {
     private String pathModel ;
     private ArrayList<String> label;
     private boolean netIsLoaded = false;
-    private int choose = 1; // choose 1 -->CannyEdge  2--> Canny
+    private int choose = 1; // choose 1 -->CannyEdgeDetector  2--> Canny
 
     private int idResources = R.raw.handposeclassificationresult92; // id CNN
     private File fileToSaveModel ;
